@@ -1,11 +1,11 @@
 package CompanyDirectory.models;
 
 enum Department {
-  Factory,
-  Office,
-  Promo,
-  Ecommerce,
-  Tech,
+  FACTORY,
+  OFFICE,
+  PROMO,
+  ECOMMERCE,
+  TECH,
   HR
 }
 

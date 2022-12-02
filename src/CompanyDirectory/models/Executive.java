@@ -1,6 +1,10 @@
 package CompanyDirectory.models;
 
 public class Executive extends Employee {
+  public Executive(String name, EmployeeRole role) {
+    super(name, role);
+  }
+
   public int getDirectReports() {
     return directReports_;
   }
